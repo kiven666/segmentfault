@@ -47,6 +47,11 @@
       return {
         msg: 'Welcome to Your Vue.js App'
       }
+    },
+    mounted(){
+      // this.$axios.get('/api/sf_list').then((res) => {
+      //   console.log(res)
+      // })
     }
   }
 </script>
@@ -59,8 +64,8 @@
     display: flex;
     flex-direction: column;
   }
- 
-  
+
+
   footer{
     border-top:1px solid #ccc;
     padding-bottom: 10px;
